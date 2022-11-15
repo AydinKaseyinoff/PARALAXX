@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Аден Истамбеков</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <a href="#" class="logo">Logo</a>
+    <ul class="navigation">
+      <li>
+        <a href="#" class="active">Home</a>
+      </li>
+      <li>
+        <a href="#">About</a>
+      </li>
+      <li>
+        <a href="#">Events</a>
+      </li>
+      <li>
+        <a href="#">Contacts</a>
+      </li>
+    </ul>
+  </header>
+  <section class="parallax">
+    <h2 id="text">Project</h2>
+    <img src="/monutain_01.png" class="m1">
+    <img src="/trees_02.png" class="t2">
+    <img src="/monutain_02.png" class="m2">
+    <img src="/trees_01.png" class="t1">
+    <img src="/man.png" class="man">
+    <img src="/plants.png" class="plants">
+  </section>
+  <section class="sec">
+    <h2>Parallax</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, aut modi fugiat cum, possimus culpa perferendis error dolore ex, quis deserunt autem porro atque neque facilis corporis illum. Aliquam quaerat repellat veniam, animi amet molestiae quasi eum nobis totam quidem. Qui necessitatibus esse non laudantium molestias, eum doloribus vero hic reprehenderit, deleniti cum veniam ab corrupti consectetur animi ipsam minima nulla quos, at ut sed dignissimos dolore adipisci aliquid? Deleniti dicta vitae nulla sequi, dolor cumque ex ratione quisquam magnam quo ab unde necessitatibus atque iste facere nobis corrupti vel laborum expedita ipsum officiis minima ipsam. A sequi quia distinctio, quaerat porro hic, eligendi animi quae laboriosam sed eaque nisi molestiae, amet incidunt? Maxime, accusamus? Sapiente, sint magni? Saepe voluptas adipisci asperiores illo aspernatur doloribus incidunt eos, quisquam veritatis molestiae voluptates in veniam dolorem sequi nulla autem laborum cum esse accusamus nostrum! Inventore velit debitis rerum vitae cupiditate aut ut voluptates, animi eaque est exercitationem natus optio, at porro impedit in saepe architecto ipsam hic repudiandae! At excepturi alias ipsam ut cum, asperiores nemo sequi reprehenderit facilis deleniti voluptate consequuntur, velit suscipit rem minima enim iste inventore sit. Sapiente laboriosam velit fugiat quod similique quos voluptates quisquam veritatis rerum expedita! Aliquam, sed numquam inventore repudiandae magnam iure officiis necessitatibus nostrum obcaecati! Placeat distinctio itaque recusandae, accusamus laudantium velit sequi. Ducimus tempora earum blanditiis numquam asperiores quod minus iure officia modi? Laborum odio neque itaque rem facilis perspiciatis sequi veniam nisi doloremque consectetur non blanditiis a, vitae ut porro ducimus delectus sed ipsa consequuntur est assumenda mollitia voluptate repudiandae error! Reprehenderit iure distinctio et assumenda natus nulla adipisci aliquam amet minima accusamus, voluptates eius tenetur. Modi tempora quidem ad magnam nam nobis at possimus maiores amet temporibus excepturi, ab suscipit similique omnis aliquam aliquid deserunt incidunt totam. Minus iusto enim sit laboriosam rem quasi quis assumenda voluptates et nihil eligendi, aut nostrum qui cumque deserunt dolorum, iure illum a quaerat ut quia ratione reiciendis tenetur. Dignissimos ea a saepe placeat similique beatae in ab obcaecati dicta ut? Aspernatur molestias nihil eaque dicta magni ut consequuntur eveniet nam numquam similique, iste voluptatem voluptates quasi totam libero suscipit debitis. Eum tenetur inventore doloremque molestias accusantium fugiat aspernatur voluptatem nisi nobis repudiandae! Quos consequuntur sequi nisi placeat dolorum recusandae, voluptatem, minima modi magni ea cum doloribus soluta ipsam esse repellendus iusto, obcaecati fuga architecto at aliquam non cumque ad magnam! Inventore odio unde perferendis!</p>
+  </section>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js"></script>
+  <script>
+   gsap.from(".m1",{
+    scrollTrigger : {
+      scrub: true
+    },
+    y: 100,
+   })
+   gsap.from(".m2",{
+    scrollTrigger : {
+      scrub: true
+    },
+    y: 200,
+   })
+   gsap.from(".t2",{
+    scrollTrigger : {
+      scrub: true
+    },
+    x: -50,
+   })
+   gsap.from(".t1",{
+    scrollTrigger : {
+      scrub: true
+    },
+    x: 50,
+   })
+   gsap.from(".man",{
+    scrollTrigger : {
+      scrub: true
+    },
+    x: -250,
+   })
+   gsap.from("#text",{
+    scrollTrigger : {
+      scrub: true
+    },
+    y: 0,
+   })
+  </script>
+</body>
+</html>
